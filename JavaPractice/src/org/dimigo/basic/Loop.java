@@ -10,5 +10,5 @@ public class Loop {
 			System.out.println();
 		}
 	}
-
+ 
 }
