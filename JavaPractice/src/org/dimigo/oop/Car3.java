@@ -3,23 +3,31 @@
  */
 package org.dimigo.oop;
 
-public class Car2 {
+public class Car3 {
 	private String company;
 	private String model;
 	private String color;
 	private int maxSpeed;
 	private int price;
 	
-	public Car2() {
+	public Car3() {
 	
 	}
 	
-	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice) {
-		company = newCompany;
-		model = newModel;
-		color = newColor;
-		maxSpeed = newMaxSpeed;
-		price = newPrice;
+	public Car3(String company, String model, String color, int maxSpeed, int price) {
+		company = this.company;
+		model = this.model;
+		color = this.color;
+		maxSpeed = this.maxSpeed;
+		price = this.price;
+	}
+	
+	public Car3(String company, String model, String color, int maxSpeed) {
+		this(company,model,color,maxSpeed,0);
+	}
+	
+	public Car3(String company, String model, String color) {
+		this(company,model,color,0);
 	}
 	
 	
