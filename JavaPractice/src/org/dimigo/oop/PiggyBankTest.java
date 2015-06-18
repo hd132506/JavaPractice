@@ -11,7 +11,7 @@ public class PiggyBankTest {
 		PiggyBank.putMoney(family[0], 10000);
 		PiggyBank.putMoney(family[1], 5000);
 		PiggyBank.putMoney(family[2], 2000);
-		PiggyBank.putMoney(family[3], 1000);
+		PiggyBank.putMoney(family[3], 1000); //static 메소드에서 this 사용 불가
 		
 		
 		
