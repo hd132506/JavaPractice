@@ -20,6 +20,7 @@ public class MovieTest {
 	private static void buyTicket(Movie movie, int age) throws Exception{
 		if(age<movie.getLimitAge())
 			throw new AgeCheckException(movie);
+			//throw new Exception(movie.getTitle()+"은/는 15세 이상 관람가입니다.");
 		else
 			System.out.println(movie.getTitle()+"즐감하세용~");
 	}
